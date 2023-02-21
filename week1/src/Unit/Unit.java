@@ -2,11 +2,11 @@ package Unit;
 
 public class Unit {
 
-    String name;
-    boolean fly;
-    boolean longdistance;
-    int atk;
-    int def;
+    public String name;
+    public boolean fly;
+    public boolean longdistance;
+    public int atk;
+    public int def;
 
     public Unit(String name, boolean fly, boolean longdistance, int atk, int def) {
         this.name = name;
