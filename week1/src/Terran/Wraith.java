@@ -1,8 +1,8 @@
 package Terran;
 
-import Unit.Unit;
+import Unit.*;
 
-public class Wraith extends Unit {
+public class Wraith extends Unit implements Terran{
 
     public Wraith() {
         super("wraith", true, true, 3, 10);

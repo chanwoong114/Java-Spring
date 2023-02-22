@@ -1,6 +1,6 @@
 package Unit;
 
-public class Unit {
+public class Unit implements Terran{
 
     public String name;
     public boolean fly;
@@ -26,6 +26,11 @@ public class Unit {
         System.out.println(this.longdistance);
         System.out.println(this.atk);
         System.out.println(this.def);
+    }
+
+    @Override
+    public String toString() {
+        return this.name ;
     }
 
 

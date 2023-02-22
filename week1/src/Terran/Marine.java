@@ -1,8 +1,8 @@
 package Terran;
 
-import Unit.Unit;
+import Unit.*;
 
-public class Marine extends Unit {
+public class Marine extends Unit implements Terran {
 
     public Marine() {
         super("Marine", false, false, 3, 10);

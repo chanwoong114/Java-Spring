@@ -1,8 +1,8 @@
 package Terran;
 
-import Unit.Unit;
+import Unit.*;
 
-public class Tank extends Unit {
+public class Tank extends Unit implements Terran {
 
     public Tank() {
         super("Tank", false, false, 7, 15);
