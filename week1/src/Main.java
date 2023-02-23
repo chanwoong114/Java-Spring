@@ -78,6 +78,7 @@ public class Main {
             int userCheck = 0;
             int comCheck = 0;
 
+
             System.out.println("아군 : " + bb);
             for (int i = 0; i < user.length; i++) {
                 if (user[i] != null){
@@ -107,6 +108,16 @@ public class Main {
                 }
             }
 
+            if (gameSet(com, user)) {
+                System.out.println("승리했습니다!!");
+                break;
+            }
+            if (gameSet(user, com)) {
+                System.out.println("패배했습니다.");
+                break;
+            }
+
+
             if (userCheck == user.length) {
                 System.out.println("패배했습니다.");
                 break;
@@ -116,17 +127,24 @@ public class Main {
                 break;
             }
 
-
             System.out.println("공격을 실행할 유닛과 공격받을 적군 유닛을 선택하세요 : ");
             int attack = sc.nextInt();
             int defence = sc.nextInt();
 
-            if (com[defence] == null || user[attack] == null) {
+            System.out.println(user[attack]);
+            System.out.println(user[attack].longdistance);
+            System.out.println(com[defence]);
+            System.out.println(com[defence].fly);
+
+            if (((defence >= a || attack >= b) || (com[defence] == null || user[attack] == null))) {
                 System.out.println("유효한 번호를 입력하세요.");
                 continue;
             }
+            if (ableAttack(user[attack], com[defence])) {
+                System.out.println("레이저나 미사일이나 침공격이 아니면 공중유닛을 공격할 수 없습니다.");
+                continue;
+            }
 
-            com[defence].def -= user[attack].atk;
 
             while (true) {
                 int v, e;
@@ -134,10 +152,16 @@ public class Main {
                 e = random.nextInt(com.length);
 
                 if (user[v] != null && com[e] != null){
+                    if (ableAttack(com[e], user[v])) {
+                        continue;
+                    }
                     user[v].def -= com[e].atk;
                     break;
                 }
             }
+
+            com[defence].def -= user[attack].atk;
+
         }
     }
 
@@ -194,8 +218,41 @@ public class Main {
         }
     }
 
-    public static void able(Unit[] a, Unit[] b) {
-        
+    public static boolean gameSet(Unit[] a, Unit[] b) {
+        boolean checkA = false;
+        boolean checkB = false;
+
+        for (int i = 0; i < a.length; i++){
+            if (a[i] != null) {
+                if (a[i].longdistance) {
+                    checkA = true;
+                    break;
+                }
+            }
+        }
+
+        for (int i = 0; i < b.length; i++) {
+            if (b[i] != null) {
+                if (b[i].fly) {
+                    checkB = true;
+                    break;
+                }
+            }
+        }
+
+        return checkB && !checkA;
     }
 
+    public static boolean ableAttack(Unit a, Unit b) {
+        boolean checkA = false;
+        boolean checkB = false;
+        if (a.longdistance) {
+            checkA = true;
+        }
+        if (b.fly) {
+            checkB = true;
+        }
+
+        return checkB && !checkA;
+    }
 }
