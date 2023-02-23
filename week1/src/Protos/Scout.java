@@ -1,8 +1,8 @@
 package Protos;
 
-import Unit.Unit;
+import Unit.*;
 
-public class Scout extends Unit {
+public class Scout extends Unit implements Protos {
 
     public Scout() {
         super("Scout", true, true, 5, 10);

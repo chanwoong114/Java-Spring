@@ -1,8 +1,8 @@
 package Zerg;
 
-import Unit.Unit;
+import Unit.*;
 
-public class Hydralisk extends Unit {
+public class Hydralisk extends Unit implements Zerg{
 
     public Hydralisk() {
         super("Hydralisk", false, true, 3, 7);
