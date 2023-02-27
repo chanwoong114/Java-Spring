@@ -39,9 +39,7 @@ public class Main {
             b = 8;
             bb = "Zerg";
         }
-        Unit aaa = makeTerran(2);
 
-        System.out.println(aaa);
 
         Unit[] com = new Unit[a];
         for (int i = 0; i < a; i++) {
@@ -131,11 +129,6 @@ public class Main {
             int attack = sc.nextInt();
             int defence = sc.nextInt();
 
-            System.out.println(user[attack]);
-            System.out.println(user[attack].longdistance);
-            System.out.println(com[defence]);
-            System.out.println(com[defence].fly);
-
             if (((defence >= a || attack >= b) || (com[defence] == null || user[attack] == null))) {
                 System.out.println("유효한 번호를 입력하세요.");
                 continue;
@@ -144,7 +137,6 @@ public class Main {
                 System.out.println("레이저나 미사일이나 침공격이 아니면 공중유닛을 공격할 수 없습니다.");
                 continue;
             }
-
 
             while (true) {
                 int v, e;
