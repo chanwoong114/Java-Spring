@@ -31,21 +31,21 @@ public class CsvStudents implements Students {
     // 데이터를 적재하고 읽기 위해서, 적절한 자료구조를 사용하세요.
     @Override
     public void load() {
-//        student = new ArrayList<>();
-//        try (
-//                InputStream inputStream = new ClassPathResource("data/student.csv").getInputStream();
-//                BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
-//        ) {
-//            String line;
-//            while ((line = reader.readLine()) != null) {
-//                String[] splitStrings = line.split(",");
-//                int studentSeq = Integer.parseInt(splitStrings[0]);
-//                String student1 = String.join(splitStrings[1]);
-//                student.add(new Student(studentSeq, student1));
-//            }
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
+        student = new ArrayList<>();
+        try (
+                InputStream inputStream = new ClassPathResource("data/student.csv").getInputStream();
+                BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+        ) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                String[] splitStrings = line.split(",");
+                int studentSeq = Integer.parseInt(splitStrings[0]);
+                String student1 = String.join(splitStrings[1]);
+                student.add(new Student(studentSeq, student1));
+            }
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Override
