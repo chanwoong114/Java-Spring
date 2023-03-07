@@ -6,6 +6,7 @@ import com.nhnacademy.edu.springframework.project.repository.Students;
 
 import java.util.ArrayList;
 import java.util.Collection;
+import java.util.Comparator;
 import java.util.stream.Collectors;
 
 public class DefaultStudentService implements StudentService {
@@ -18,7 +19,7 @@ public class DefaultStudentService implements StudentService {
         Collection<Student> all = studentRepository.findAll();
         Collection<Student> passStudent = new ArrayList<>();
         for (Student student : all) {
-            if (student.getScore().isFail()){
+            if (!student.getScore().isFail()){
                 passStudent.add(student);
             }
         }
@@ -34,7 +35,7 @@ public class DefaultStudentService implements StudentService {
 
 
 
-        return studentRepository.findAll().stream().sorted().collect(Collectors.toCollection(this::getStudentsOrderByScore));
+        return studentRepository.findAll().stream().sorted(Comparator.comparingInt(it->it.getScore().getScore())).collect(Collectors.toList());
     }
 
 }

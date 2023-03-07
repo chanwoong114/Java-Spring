@@ -15,17 +15,20 @@ import java.util.List;
 
 public class CsvStudents implements Students {
 
-    private CsvStudents() {}
+    private CsvStudents() {
+    }
 
     private static CsvStudents csvStudents = new CsvStudents();
-    /** TODO 3 :
+
+    /**
+     * TODO 3 :
      * Java Singleton 패턴으로 getInstance() 를 구현하세요.
      **/
     public static Students getInstance() {
         return csvStudents;
     }
 
-    private Collection <Student> student;
+    private Collection<Student> student;
 
     // TODO 7 : student.csv 파일에서 데이터를 읽어 클래스 멤버 변수에 추가하는 로직을 구현하세요.
     // 데이터를 적재하고 읽기 위해서, 적절한 자료구조를 사용하세요.
@@ -40,7 +43,7 @@ public class CsvStudents implements Students {
             while ((line = reader.readLine()) != null) {
                 String[] splitStrings = line.split(",");
                 int studentSeq = Integer.parseInt(splitStrings[0]);
-                String student1 = String.join(splitStrings[1]);
+                String student1 = splitStrings[1];
                 student.add(new Student(studentSeq, student1));
             }
         } catch (IOException e) {
@@ -50,15 +53,24 @@ public class CsvStudents implements Students {
 
     @Override
     public Collection<Student> findAll() {
-        return null;
+        return student;
     }
 
     /**
      * TODO 8 : students 데이터에 score 정보를 추가하세요.
+     *
      * @param scores
      */
     @Override
     public void merge(Collection<Score> scores) {
+        for (Score score : scores) {
+            for (Student student : this.student) {
+                if (score.getStudentSeq() == student.getSeq()) {
+                    student.setScore(score);
+                }
+            }
+
+        }
 
     }
 }
