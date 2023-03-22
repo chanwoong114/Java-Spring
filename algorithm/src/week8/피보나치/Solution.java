@@ -1,4 +1,4 @@
-package 재귀.피보나치;
+package week8.피보나치;
 
 import java.util.Scanner;
 
