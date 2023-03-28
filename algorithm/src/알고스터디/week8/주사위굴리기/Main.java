@@ -1,4 +1,4 @@
-package week8.주사위굴리기;
+package 알고스터디.week8.주사위굴리기;
 
 import java.util.Scanner;
 

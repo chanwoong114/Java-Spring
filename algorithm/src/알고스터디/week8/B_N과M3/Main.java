@@ -1,4 +1,4 @@
-package week8.B_N과M3;
+package 알고스터디.week8.B_N과M3;
 
 import java.util.Scanner;
 

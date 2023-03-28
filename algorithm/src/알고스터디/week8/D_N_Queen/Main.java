@@ -1,4 +1,4 @@
-package week8.D_N_Queen;
+package 알고스터디.week8.D_N_Queen;
 
 import java.util.Arrays;
 import java.util.Scanner;

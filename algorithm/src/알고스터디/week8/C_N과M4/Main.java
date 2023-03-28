@@ -1,4 +1,4 @@
-package week8.C_N과M4;
+package 알고스터디.week8.C_N과M4;
 
 import java.util.Scanner;
 

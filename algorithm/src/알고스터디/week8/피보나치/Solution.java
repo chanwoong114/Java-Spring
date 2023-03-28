@@ -1,4 +1,4 @@
-package week8.피보나치;
+package 알고스터디.week8.피보나치;
 
 import java.util.Scanner;
 

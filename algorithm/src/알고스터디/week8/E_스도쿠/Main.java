@@ -1,7 +1,6 @@
-package week8.E_스도쿠;
+package 알고스터디.week8.E_스도쿠;
 
 import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 public class Main {

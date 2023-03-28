@@ -1,24 +1,27 @@
-package week8.A_별찍기;
+package 알고스터디.week8.A_별찍기;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Solution {
+public class Prac {
 
-    static char[][] arr;
+    static char arr[][];
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
         arr = new char[n][n];
 
-        for (int i=0; i<n; i++) {
+        for (int i = 0; i < n; i++) {
             Arrays.fill(arr[i], ' ');
         }
         star(n, 0, 0);
         for (int i = 0; i < n; i++) {
             System.out.println(arr[i]);
         }
+
+
     }
 
     public static void star(int n, int x, int y) {
@@ -26,18 +29,18 @@ public class Solution {
             arr[x][y] = '*';
             return;
         }
-        int v = n/3;
+        int v = n / 3;
 
-        for (int i=0; i<3; i++) {
-            for (int j=0; j<3; j++) {
+        for (int i = 0; i < 3; i++) {
+            for (int j = 0; j < 3; j++) {
                 if (i == 1 && j == 1) {
                     continue;
-                }
-                else {
+                } else {
                     star(v, x + (v * i), y + (v * j));
                 }
             }
         }
+
 
     }
 }
