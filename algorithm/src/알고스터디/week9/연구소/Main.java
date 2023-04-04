@@ -1,4 +1,4 @@
-package 연구소;
+package 알고스터디.week9.연구소;
 
 import java.util.ArrayList;
 import java.util.LinkedList;

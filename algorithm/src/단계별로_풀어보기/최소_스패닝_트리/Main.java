@@ -1,4 +1,4 @@
-package 최소_스패닝_트리;
+package 단계별로_풀어보기.최소_스패닝_트리;
 
 import java.util.*;
 

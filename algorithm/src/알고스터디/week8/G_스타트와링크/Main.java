@@ -1,4 +1,4 @@
-package week8.G_스타트와링크;
+package 알고스터디.week8.G_스타트와링크;
 
 import java.util.Scanner;
 

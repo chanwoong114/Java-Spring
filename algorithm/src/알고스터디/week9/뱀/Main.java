@@ -1,4 +1,4 @@
-package 뱀;
+package 알고스터디.week9.뱀;
 
 import java.io.BufferedReader;
 import java.io.IOException;

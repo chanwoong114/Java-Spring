@@ -1,4 +1,4 @@
-package week8.F_연산자끼워넣기;
+package 알고스터디.week8.F_연산자끼워넣기;
 
 import java.util.Scanner;
 

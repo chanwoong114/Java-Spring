@@ -1,4 +1,4 @@
-package 경사로;
+package 알고스터디.week9.경사로;
 
 import java.util.Scanner;
 
