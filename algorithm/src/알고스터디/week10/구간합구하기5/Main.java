@@ -1,4 +1,4 @@
-package 알고스터디.구간합구하기5;
+package 알고스터디.week10.구간합구하기5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
