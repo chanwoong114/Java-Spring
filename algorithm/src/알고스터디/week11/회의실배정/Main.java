@@ -12,6 +12,7 @@ public class Main {
             this.n1 = n1;
             this.n2 = n2;
         }
+
     }
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -28,16 +29,14 @@ public class Main {
         }
 
         Time temp = arr.poll();
-        int cnt = 0, end = temp.n2;
-        for (int i = 0; i < N-1; i++) {
+        int cnt = 1, end = temp.n2;
+        while (!arr.isEmpty()) {
             temp = arr.poll();
             if (end <= temp.n1) {
                 cnt++;
                 end = temp.n2;
             }
-            System.out.println(temp.n1 + " " + temp.n2);
         }
-
         System.out.println(cnt);
     }
 }
