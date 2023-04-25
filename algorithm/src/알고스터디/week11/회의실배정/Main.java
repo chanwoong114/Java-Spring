@@ -19,24 +19,34 @@ public class Main {
         StringTokenizer st;
 
         int N = Integer.parseInt(br.readLine());
-        PriorityQueue<Time> arr = new PriorityQueue<>((o1, o2) -> Integer.compare(o1.n2, o2.n2));
+        int[][] arr = new int[N][2];
 
         for (int i = 0; i < N; i++) {
             st = new StringTokenizer(br.readLine());
-            int n1 = Integer.parseInt(st.nextToken());
-            int n2 = Integer.parseInt(st.nextToken());
-            arr.offer(new Time(n1, n2));
+            arr[i][0] = Integer.parseInt(st.nextToken());
+            arr[i][1] = Integer.parseInt(st.nextToken());
         }
 
-        Time temp = arr.poll();
-        int cnt = 1, end = temp.n2;
-        while (!arr.isEmpty()) {
-            temp = arr.poll();
-            if (end <= temp.n1) {
+        Arrays.sort(arr, new Comparator<int[]>() {
+            @Override
+            public int compare(int[] o1, int[] o2) {
+                if (o1[1] == o2[1]) {
+                    return o1[0] - o2[0];
+                }
+                return o1[1] - o2[1];
+            }
+        });
+
+        int cnt = 1;
+        int end = arr[0][1];
+
+        for (int i = 1; i < N; i++) {
+            if (end <= arr[i][0]) {
+                end = arr[i][1];
                 cnt++;
-                end = temp.n2;
             }
         }
+
         System.out.println(cnt);
     }
 }
