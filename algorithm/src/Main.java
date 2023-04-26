@@ -1,31 +1,18 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String args[]){
+        int[] lst = {1,2,3,4,5};
+        int[] lst2 = lst;
 
-        int i = 3; int k = 1;
-        switch(i) {
-            case 1: {
-                k += 1;
-                System.out.println(1);
-            }
-            case 2: {
-                k++;
-                System.out.println(2);
-            }
-            case 3: {
-                k = 0;
-                System.out.println(3);
-            }
-            case 4: {
-                k += 3;
-                System.out.println(4);
-            }
-            case 5: {
-                k -= 10;
-                System.out.println(5);
-            }
-            default: k--;
+        lst[1] = 9;
+
+        System.out.println(Arrays.toString(lst2));
+    }
+
+    static void copy(int[] arr, int[] arr2) {
+        for (int i = 0; i < arr.length; i++) {
+            arr2[i] = arr[i];
         }
-        System.out.print(k);
-
     }
 }
