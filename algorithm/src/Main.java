@@ -1,18 +1,17 @@
 import java.util.Arrays;
+import java.util.HashMap;
 
 public class Main {
     public static void main(String args[]){
-        int[] lst = {1,2,3,4,5};
-        int[] lst2 = lst;
+        HashMap<Integer, String> hash = new HashMap<>();
 
-        lst[1] = 9;
+        hash.put(1, "aaa");
+        hash.put(2, "bbb");
+        hash.put(1, "ccc");
 
-        System.out.println(Arrays.toString(lst2));
-    }
-
-    static void copy(int[] arr, int[] arr2) {
-        for (int i = 0; i < arr.length; i++) {
-            arr2[i] = arr[i];
-        }
+        System.out.println(hash);
+        System.out.println(hash.keySet());
+        System.out.println(hash.keySet().contains(1));
+        System.out.println(hash.containsKey(1));
     }
 }
