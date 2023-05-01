@@ -2,7 +2,7 @@ package B형.대비알고리즘;
 
 import java.util.Arrays;
 
-public class QuickSortClass {
+public class MergeSortClass {
 
     static int[] a;
     static int[] tmp;
