@@ -4,6 +4,7 @@ import com.jpashop.jpabook.domain.Member;
 import com.jpashop.jpabook.domain.Order;
 import com.jpashop.jpabook.domain.OrderSearch;
 import com.jpashop.jpabook.domain.item.Item;
+import com.jpashop.jpabook.repository.OrderRepository;
 import com.jpashop.jpabook.service.ItemService;
 import com.jpashop.jpabook.service.MemberService;
 import com.jpashop.jpabook.service.OrderService;
@@ -21,6 +22,7 @@ public class OrderController {
     private final OrderService orderService;
     private final MemberService memberService;
     private final ItemService itemService;
+    private final OrderRepository orderRepository;
 
     @GetMapping(value = "/order")
     public String createForm(Model model) {
@@ -43,7 +45,7 @@ public class OrderController {
     @GetMapping(value = "/orders")
     public String orderList(@ModelAttribute("orderSearch") OrderSearch orderSearch, Model model) {
 
-        List<Order> orders = orderService.findOrders(orderSearch);
+        List<Order> orders = orderRepository.findAllByString(orderSearch);
         model.addAttribute("orders", orders);
 
         return "order/orderList";
