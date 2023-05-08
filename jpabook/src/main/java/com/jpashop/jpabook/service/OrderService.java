@@ -5,6 +5,7 @@ import com.jpashop.jpabook.domain.item.Item;
 import com.jpashop.jpabook.repository.ItemRepo;
 import com.jpashop.jpabook.repository.MemberRepo;
 import com.jpashop.jpabook.repository.OrderRepo;
+import com.jpashop.jpabook.repository.OrderRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -17,7 +18,7 @@ import java.util.List;
 public class OrderService {
 
     private final MemberRepo memberRepo;
-    private final OrderRepo orderRepo;
+    private final OrderRepository orderRepo;
     private final ItemRepo itemRepo;
 
     // 주문 //
@@ -49,13 +50,13 @@ public class OrderService {
     public void cancelOrder(Long orderId){
 
         // 주문 엔티티 조회
-        Order order = orderRepo.findById(orderId).orElseThrow();
+        Order order = orderRepo.findOne(orderId);
 
         // 주문 취소
         order.cancel();
     }
 
     public List<Order> findOrders(OrderSearch orderSearch) {
-        return orderRepo.findAllByOrderSearch(orderSearch);
+        return orderRepo.findAllByString(orderSearch);
     }
 }
