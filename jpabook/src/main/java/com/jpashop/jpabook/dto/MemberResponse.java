@@ -4,7 +4,6 @@ import com.jpashop.jpabook.domain.Address;
 import com.jpashop.jpabook.domain.Member;
 import com.jpashop.jpabook.domain.Order;
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 

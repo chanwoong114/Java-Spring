@@ -1,8 +1,7 @@
 package com.jpashop.jpabook.domain;
 
 import com.jpashop.jpabook.domain.item.Item;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.ArrayList;
@@ -10,6 +9,9 @@ import java.util.List;
 
 @Entity
 @Getter @Setter
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
 public class Category {
 
     @Id @GeneratedValue
