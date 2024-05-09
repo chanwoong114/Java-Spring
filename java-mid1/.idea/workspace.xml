@@ -5,9 +5,84 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1373fdd7-3abe-4edd-bfc3-807742f568c0" name="Changes" comment="자바 중금 강의 내용">
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/ImmutableAddress.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex0/StringGradeEx0_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex1/StringGradeEx1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradeEx2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassGradleEx2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/ClassRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex2/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradeEx3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/ClassGradleEx3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/EnumMethodMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/EnumRefMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ex3/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/ClassGrade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/ClassGradeRefMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref1/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref2/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref2/EnumRefMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref2/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/DiscountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/EnumRefMain3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/EnumRefMain3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/EnumRefMain3_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/EnumRefMain3_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/enumeration/ref3/Grade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/StringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassCreateMAin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/ClassMetaMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/clazz/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberMainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/immutable/address/MemberV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/CharArrayMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/StringBasicMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/StringConcatMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringBuilderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/LoopStringMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/builder/StringBuilderMain1_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/MethodChainingMain3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/chaining/ValueAdder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/equals/StringEqualsMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/immutable/StringImmutable2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringComparisonMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringInfoMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/method/StringSearchMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/test/TestString1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/test/TestString2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/test/TestString3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/string/test/TestString4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/system/SystemMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/AutoboxingMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/AutoboxingMain2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyInteger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerMethodMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/MyIntegerNullMain1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperClassMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperUtilsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/lang/wrapper/WrapperVsPrimitive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/LocalDateMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/LocalDateTimeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/time/LocalTimeMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java-mid1-source/java-mid1-source.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../java-mid1-source/java-mid1-source.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mid1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mid1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lang/immutable/address/RefMain2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lang/immutable/address/RefMain2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +92,29 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="GOROOT" url="file:///usr/local/go" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;chanwoong114&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/chanwoong114/Java-Spring.git&quot;,
+    &quot;accountId&quot;: &quot;cb92d2a6-1ca1-4b9b-83f2-959cf11eaa62&quot;
+  }
+}</component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="true" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -35,46 +127,117 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.EqualsMainV1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.EqualsMainV2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.LangMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ObjectPolyExample1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PrimitiveMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RectangleMain.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain1_3.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RefMain2_2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ToStringMain2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;build.tools&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.AutoboxingMain1.executor": "Run",
+    "Application.AutoboxingMain2.executor": "Run",
+    "Application.CharArrayMain.executor": "Run",
+    "Application.ClassCreateMAin.executor": "Run",
+    "Application.ClassGradeEx2_1.executor": "Run",
+    "Application.ClassGradeEx3_1.executor": "Run",
+    "Application.ClassGradeRefMain1.executor": "Run",
+    "Application.ClassGradleEx2_2.executor": "Run",
+    "Application.ClassMetaMain.executor": "Run",
+    "Application.ClassRefMain.executor": "Run",
+    "Application.EnumMethodMain.executor": "Run",
+    "Application.EnumRefMain.executor": "Run",
+    "Application.EnumRefMain2.executor": "Run",
+    "Application.EnumRefMain3_3.executor": "Run",
+    "Application.EnumRefMain3_4.executor": "Run",
+    "Application.EqualsMainV1.executor": "Run",
+    "Application.EqualsMainV2.executor": "Run",
+    "Application.LangMain.executor": "Run",
+    "Application.LocalDateMain.executor": "Run",
+    "Application.LocalDateTimeMain.executor": "Run",
+    "Application.LoopStringBuilderMain.executor": "Run",
+    "Application.LoopStringMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MemberMainV1.executor": "Run",
+    "Application.MemberMainV2.executor": "Run",
+    "Application.MethodChainingMain1.executor": "Run",
+    "Application.MethodChainingMain2.executor": "Run",
+    "Application.MethodChainingMain3.executor": "Run",
+    "Application.MyIntegerMethodMain0.executor": "Run",
+    "Application.MyIntegerMethodMain1.executor": "Run",
+    "Application.MyIntegerNullMain0.executor": "Run",
+    "Application.MyIntegerNullMain1.executor": "Run",
+    "Application.ObjectMain.executor": "Run",
+    "Application.ObjectPolyExample1.executor": "Run",
+    "Application.PrimitiveMain.executor": "Run",
+    "Application.RectangleMain.executor": "Run",
+    "Application.RefMain1_1.executor": "Run",
+    "Application.RefMain1_3.executor": "Run",
+    "Application.RefMain2.executor": "Run",
+    "Application.RefMain2_2.executor": "Run",
+    "Application.StringBasicMain.executor": "Run",
+    "Application.StringBuilderMain1_1.executor": "Run",
+    "Application.StringBuilderMain1_2.executor": "Run",
+    "Application.StringComparisonMain.executor": "Run",
+    "Application.StringConcatMain.executor": "Run",
+    "Application.StringEqualMain1.executor": "Run",
+    "Application.StringEqualsMain2.executor": "Run",
+    "Application.StringGradeEx0_1.executor": "Run",
+    "Application.StringGradeEx0_2.executor": "Run",
+    "Application.StringGradeEx1_1.executor": "Run",
+    "Application.StringGradeEx1_2.executor": "Run",
+    "Application.StringImmutable1.executor": "Run",
+    "Application.StringImmutable2.executor": "Run",
+    "Application.StringInfoMain.executor": "Run",
+    "Application.StringTest.executor": "Run",
+    "Application.SystemMain.executor": "Run",
+    "Application.TestMain.executor": "Run",
+    "Application.TestString1.executor": "Run",
+    "Application.TestString2.executor": "Run",
+    "Application.TestString3.executor": "Run",
+    "Application.TestString4.executor": "Run",
+    "Application.ToStringMain1.executor": "Run",
+    "Application.ToStringMain2.executor": "Run",
+    "Application.WrapperClassMain.executor": "Run",
+    "Application.WrapperUtilsMain.executor": "Run",
+    "Application.WrapperVsPrimitive.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/lee-chanwoong/Desktop/Java-Spring/java-mid1/src/enumeration",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "build.tools",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.RefMain1_3">
-    <configuration name="PrimitiveMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.PrimitiveMain" />
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/enumeration" />
+      <recent name="$PROJECT_DIR$/src/enumeration/ex1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="time" />
+      <recent name="enumeration.ref2" />
+      <recent name="enumeration.ex3" />
+      <recent name="enumeration.ex2" />
+      <recent name="enumeration.ex1" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.StringTest">
+    <configuration name="EnumRefMain3_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ref3.EnumRefMain3_3" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,12 +245,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RectangleMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.object.test.RectangleMain" />
+    <configuration name="EnumRefMain3_4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="enumeration.ref3.EnumRefMain3_4" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.object.test.*" />
+          <option name="PATTERN" value="enumeration.ref3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,12 +258,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain1_1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_1" />
+    <configuration name="LocalDateMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.LocalDateMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +271,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain1_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain1_3" />
+    <configuration name="LocalDateTimeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="time.LocalDateTimeMain" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="time.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,12 +284,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RefMain2_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="lang.immutable.address.RefMain2_2" />
+    <configuration name="StringTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="lang.StringTest" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lang.immutable.address.*" />
+          <option name="PATTERN" value="lang.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,19 +299,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RefMain1_3" />
-        <item itemvalue="Application.RefMain2_2" />
-        <item itemvalue="Application.RefMain1_1" />
-        <item itemvalue="Application.PrimitiveMain" />
-        <item itemvalue="Application.RectangleMain" />
+        <item itemvalue="Application.StringTest" />
+        <item itemvalue="Application.LocalDateTimeMain" />
+        <item itemvalue="Application.LocalDateMain" />
+        <item itemvalue="Application.EnumRefMain3_3" />
+        <item itemvalue="Application.EnumRefMain3_4" />
       </list>
     </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.10-corretto-17.0.10-4caba194b151-53826d6a" />
-        <option value="jdk-21.0.2-corretto-21.0.2-4caba194b151-221dcadf" />
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
       </set>
     </attachedChunks>
   </component>
@@ -165,6 +328,18 @@
       <workItem from="1712059476124" duration="168000" />
       <workItem from="1712120750088" duration="8784000" />
       <workItem from="1712195812283" duration="2129000" />
+      <workItem from="1712301963280" duration="20000" />
+      <workItem from="1712307031147" duration="603000" />
+      <workItem from="1714011165153" duration="7802000" />
+      <workItem from="1714023426975" duration="1000" />
+      <workItem from="1714093480457" duration="4000" />
+      <workItem from="1714093501013" duration="1653000" />
+      <workItem from="1714350510718" duration="7000" />
+      <workItem from="1714352162287" duration="2128000" />
+      <workItem from="1714387142444" duration="3785000" />
+      <workItem from="1714438843768" duration="5000" />
+      <workItem from="1715129437906" duration="6056000" />
+      <workItem from="1715149821022" duration="3412000" />
     </task>
     <task id="LOCAL-00001" summary="자바 스크링 공부">
       <option name="closed" value="true" />
@@ -193,5 +368,9 @@
     <MESSAGE value="자바 스크링 공부" />
     <MESSAGE value="자바 중금 강의 내용" />
     <option name="LAST_COMMIT_MESSAGE" value="자바 중금 강의 내용" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>false</integration-enabled>
+    <settings-migrated>true</settings-migrated>
   </component>
 </project>
