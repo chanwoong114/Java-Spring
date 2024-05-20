@@ -5,79 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1373fdd7-3abe-4edd-bfc3-807742f568c0" name="Changes" comment="자바 중금 강의 내용">
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/CheckedCatchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/CheckedThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/MyCheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/checked/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/MyUncheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/Service.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/UnCheckedCatchMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/basic/unchecked/UncheckedThrowMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/MainV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/NetworkClientV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex0/NetworkServiceV0.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/MainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkClientV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex1/NetworkServiceV1_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/ShdowingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/AnonymousOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex0Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex0RefMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1RefMainV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1RefMainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1RefMainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1RefMainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Ex1RefMainV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/anonymous/ex/Process.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/InnerOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/InnerOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/ex1/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/ex1/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/ex1/Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/ex2/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/inner/ex2/CarMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/LocalOuterV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/local/Printer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/NestedOuter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/NestedOuterMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/NetworkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex1/NetworkMessage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex2/Network.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nested/nested/ex2/NetworkMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ChangeTimePlusMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ChangeTimeWithMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ChronoFieldMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ChronoUnitMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/DurationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/FormattingMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/FormattingMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/GetTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/InstantMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/IsSupportedMain1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/IsSupportedMain2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/LocalDateMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/LocalDateTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/LocalTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/OffsetDateTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/PeriodMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ZoneIdMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/ZonedDateTimeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestAdjusters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestBetween.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestCalendarPrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestLoopPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestPlus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/time/time/test/TestZone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../algorithm/src/etc/크로스컨트리/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MainVKotlin.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/MainV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/MainV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkClientV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/ConnectExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/MainV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/대비알고리즘/QuickSortClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/오타교정시스템/UserSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/오타교정시스템/UserSolution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-mid1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mid1.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +48,9 @@
       <list>
         <option value="Enum" />
         <option value="Interface" />
+        <option value="package-info" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -162,6 +123,9 @@
     "Application.Main.executor": "Run",
     "Application.MainV0.executor": "Run",
     "Application.MainV1.executor": "Run",
+    "Application.MainV2.executor": "Run",
+    "Application.MainV3.executor": "Run",
+    "Application.MainV4.executor": "Run",
     "Application.MemberMainV1.executor": "Run",
     "Application.MemberMainV2.executor": "Run",
     "Application.MethodChainingMain1.executor": "Run",
@@ -205,6 +169,7 @@
     "Application.TestString4.executor": "Run",
     "Application.ToStringMain1.executor": "Run",
     "Application.ToStringMain2.executor": "Run",
+    "Application.UnCheckedCatchMain.executor": "Run",
     "Application.UncheckedThrowMain.executor": "Run",
     "Application.WrapperClassMain.executor": "Run",
     "Application.WrapperUtilsMain.executor": "Run",
@@ -212,6 +177,7 @@
     "Application.exception.ex1.MainV0.executor": "Run",
     "Application.nested.inner.ex2.CarMain.executor": "Run",
     "Application.nested.nested.ex2.NetworkMain.executor": "Run",
+    "Kotlin.MainVKotlinKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.go.formatter.settings.were.checked": "true",
@@ -221,7 +187,7 @@
     "go.import.settings.migrated": "true",
     "go.sdk.automatically.set": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/lee-chanwoong/Desktop/Java-Spring/java-mid1/src/exception/basic/checked",
+    "last_opened_file_path": "/Users/lee-chanwoong/Desktop/Java-Spring/java-mid1/src/exception/ex4",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -230,33 +196,36 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/exception/ex4" />
       <recent name="$PROJECT_DIR$/src/exception/basic/checked" />
       <recent name="$PROJECT_DIR$/src/nested" />
       <recent name="$PROJECT_DIR$/src/time" />
       <recent name="$PROJECT_DIR$/src/enumeration" />
-      <recent name="$PROJECT_DIR$/src/enumeration/ex1" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="exception.ex3" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exception.ex4" />
+      <recent name="exception.ex3" />
+      <recent name="exception.ex2" />
       <recent name="exception.ex1" />
       <recent name="nested.anonymous.ex" />
-      <recent name="nested.local" />
-      <recent name="nested" />
-      <recent name="nested.nested.ex1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UnCheckedCatchMain">
-    <configuration name="CheckedCatchMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedCatchMain" />
+  <component name="RunManager" selected="Application.MainV4">
+    <configuration name="MainV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex2.MainV2" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.basic.checked.*" />
+          <option name="PATTERN" value="exception.ex2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -264,12 +233,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckedThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.checked.CheckedThrowMain" />
+    <configuration name="MainV3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex3.MainV3" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.basic.checked.*" />
+          <option name="PATTERN" value="exception.ex3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -277,12 +246,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainV1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.ex1.MainV1" />
+    <configuration name="MainV4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exception.ex4.MainV4" />
       <module name="java-mid1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exception.ex1.*" />
+          <option name="PATTERN" value="exception.ex4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -303,26 +272,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UncheckedThrowMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exception.basic.unchecked.UncheckedThrowMain" />
+    <configuration name="MainVKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainVKotlinKt" />
       <module name="java-mid1" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exception.basic.unchecked.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainV4" />
+        <item itemvalue="Kotlin.MainVKotlinKt" />
+        <item itemvalue="Application.MainV3" />
+        <item itemvalue="Application.MainV2" />
         <item itemvalue="Application.UnCheckedCatchMain" />
-        <item itemvalue="Application.UncheckedThrowMain" />
-        <item itemvalue="Application.CheckedCatchMain" />
-        <item itemvalue="Application.CheckedThrowMain" />
-        <item itemvalue="Application.MainV1" />
       </list>
     </recent_temporary>
   </component>
@@ -361,7 +324,10 @@
       <workItem from="1715149821022" duration="4109000" />
       <workItem from="1715821970643" duration="13357000" />
       <workItem from="1715927894451" duration="3142000" />
-      <workItem from="1716011306065" duration="1887000" />
+      <workItem from="1716011306065" duration="2196000" />
+      <workItem from="1716013697701" duration="14000" />
+      <workItem from="1716018868378" duration="800000" />
+      <workItem from="1716164861336" duration="8842000" />
     </task>
     <task id="LOCAL-00001" summary="자바 스크링 공부">
       <option name="closed" value="true" />
@@ -387,7 +353,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715234202721</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="자바 중금 강의 내용">
+      <option name="closed" value="true" />
+      <created>1716013234484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1716013234484</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
