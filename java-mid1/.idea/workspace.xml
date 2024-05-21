@@ -5,38 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1373fdd7-3abe-4edd-bfc3-807742f568c0" name="Changes" comment="자바 중금 강의 내용">
-      <change afterPath="$PROJECT_DIR$/../algorithm/src/etc/크로스컨트리/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MainVKotlin.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/MainV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientExceptionV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkClientV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex2/NetworkServiceV2_5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/MainV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkClientV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3_1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/NetworkServiceV3_2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/ConnectExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/NetworkClientExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex3/exception/SendExceptionV3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/MainV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkClientV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/NetworkServiceV5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/ConnectExceptionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/NetworkClientExceptionV4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/ex4/exception/SendExceptionV4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/대비알고리즘/QuickSortClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/오타교정시스템/UserSolution.class" beforeDir="false" afterPath="$PROJECT_DIR$/../algorithm/out/production/algorithm/B형/오타교정시스템/UserSolution.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/java-mid1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-mid1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/basic/checked/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/basic/checked/Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -327,7 +297,7 @@
       <workItem from="1716011306065" duration="2196000" />
       <workItem from="1716013697701" duration="14000" />
       <workItem from="1716018868378" duration="800000" />
-      <workItem from="1716164861336" duration="8842000" />
+      <workItem from="1716164861336" duration="16943000" />
     </task>
     <task id="LOCAL-00001" summary="자바 스크링 공부">
       <option name="closed" value="true" />
@@ -361,7 +331,15 @@
       <option name="project" value="LOCAL" />
       <updated>1716013234484</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="자바 중금 강의 내용">
+      <option name="closed" value="true" />
+      <created>1716192414537</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1716192414537</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
